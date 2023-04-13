@@ -17,6 +17,7 @@ return require('packer').startup(function(use)
 	use('theprimeagen/harpoon')
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
+	use 'feline-nvim/feline.nvim'
 	use 'neovim/nvim-lspconfig'
 	use {
   'VonHeikemen/lsp-zero.nvim',
