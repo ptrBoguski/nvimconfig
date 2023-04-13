@@ -1,5 +1,4 @@
 require("dns")
-
 -- move this to gruvbox config later
 
 require("gruvbox").setup({

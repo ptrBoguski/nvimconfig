@@ -1,0 +1,27 @@
+{
+    "workspace.library": [
+        "/home/dns/.config/nvim",
+        "/home/dns/.local/share/nvim/site",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/LuaSnip",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/harpoon",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/mason.nvim",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/packer.nvim",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/undotree",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+        "/tmp/.mount_nvim.aTmiduc/usr/share/nvim/runtime",
+        "/tmp/.mount_nvim.aTmiduc/usr/share/nvim/runtime/pack/dist/opt/matchit",
+        "/tmp/.mount_nvim.aTmiduc/usr/lib/nvim",
+        "/home/dns/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp/after",
+        "/home/dns/.config/nvim/after",
+        "${3rd}/luassert/library"
+    ]
+}
