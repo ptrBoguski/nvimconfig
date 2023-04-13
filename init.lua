@@ -1,4 +1,5 @@
 require("dns")
+require("dns.set")
 -- move this to gruvbox config later
 
 require("gruvbox").setup({
@@ -27,6 +28,17 @@ require("gruvbox").setup({
 
 vim.o.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme gruvbox]])
+vim.api.nvim_create_autocmd("InsertEnter",{
+    callback = function ()
+        vim.cmd([[set norelativenumber]])
+end})
+
+vim.api.nvim_create_autocmd("InsertLeave",{
+    callback = function ()
+        vim.cmd([[set relativenumber]])
+end})
+
+
 
 
 
