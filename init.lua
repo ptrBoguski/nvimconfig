@@ -1,5 +1,6 @@
 require("dns")
 require("dns.set")
+require("dns.packer")
 -- move this to gruvbox config later
 
 require("gruvbox").setup({

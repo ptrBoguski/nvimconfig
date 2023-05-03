@@ -7,16 +7,13 @@ lsp.ensure_installed({
 })
 local cmake = require'lspconfig'.cmake.setup{}
 
--- Fix Undefined global 'vim'
--- lsp.configure('lua-language-server', {
---     settings = {
---         Lua = {
---             diagnostics = {
---                 globals = { 'vim' }
---             }
---         }
---     }
--- })
+
+
+
+require'lspconfig'.pylsp.setup{}
+require'lspconfig'.pyright.setup{}
+
+
 
 
 local cmp = require('cmp')
